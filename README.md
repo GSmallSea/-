@@ -1,7 +1,7 @@
 ## 1、创建私有Repo（Specs）
     在Git上创建一个Respository，并命名为XHProjectMain
     添加Private Pod并验证 
-### 终端依次执行：
+##### 终端依次执行：
     添加私有Repo
     pod repo add XHProjectMain https://github.com/GSmallSea/XHProjectMain.git
     验证是否成功
@@ -10,15 +10,15 @@
     在Git上创建一个Respository，并命名为XHMainProject
     将Respository拉取下来并且通过XCodec创建工程，终端执行
     git clone https://github.com/GSmallSea/XHMainProject.git
-### 终端切到PAToapAPP工程根目录下，初始化你的Podfile，此时不需要在Podfile添加任何依赖
+##### 终端切到PAToapAPP工程根目录下，初始化你的Podfile，此时不需要在Podfile添加任何依赖
     直接复制一个Podfile文件即可、
     pod install
-### 现在主工程已创建完毕。
+##### 现在主工程已创建完毕。
 ## 3、创建组件Pod（创建多个Pod，创建方式相同）
-### 在Git上创建Repository，并拉取到本地
+##### 在Git上创建Repository，并拉取到本地
     git clone https://github.com/GSmallSea/XHMainProject-User.git
-### 在XHMainProject-User工程目录下，创建XHMainProject-User工程
-### 并且创建Pod/Classes目录，将XHMainProject-User的Classes/{h,m}拷贝到Pod/Classes目录下面、创建.podspec
+##### 在XHMainProject-User工程目录下，创建XHMainProject-User工程
+##### 并且创建Pod/Classes目录，将XHMainProject-User的Classes/{h,m}拷贝到Pod/Classes目录下面、创建.podspec
     pod spec create XHMainProject-User.podspec  (.podspec 跟项目名一样即可)
 ## 文件目录变成
     LICENSE

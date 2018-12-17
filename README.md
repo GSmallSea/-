@@ -73,12 +73,13 @@
 ## 当组件化项目完成以后，后续开发中主要的操作(反复一下操作)
     1、工程变更、进入podspec文件修改version版本号及其他pod的导入(dependency)
     2、git add .
-    3、git push
-    4、git tag 0.0.1 #这里需要与你的.podspec中s.version值相同
-    5、git push --tags
-    6、pod spec lint
-    7、pod repo push XHProjectMain XHMainProject-User.podspec
-    8、查看主项(XHMainProject)目中的.cocoapods目录下去查看工程是否有对应版本信息
+    3、git commit -m "添加Pod"
+    4、git push
+    5、git tag 0.0.1 #这里需要与你的.podspec中s.version值相同
+    6、git push --tags
+    7、pod spec lint
+    8、pod repo push XHProjectMain XHMainProject-User.podspec
+    9、查看主项(XHMainProject)目中的.cocoapods目录下去查看工程是否有对应版本信息
     
 
 
